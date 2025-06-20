@@ -1,9 +1,9 @@
-
+import Hero from "./components/Hero"
 
 function App() {
 
   return (
-    <div>Start</div>
+    <Hero/>
   )
 }
 
