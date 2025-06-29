@@ -1,9 +1,19 @@
+//App.jsx
+import AboutMe from "./assets/pages/AboutMe"
 import Hero from "./components/Hero"
-
+import ProjectCard from "./components/ProjectCard"
 function App() {
 
   return (
-    <Hero/>
+    <div>
+      {
+        /* 
+        <Hero/>
+        <ProjectCard/>
+        */
+       <AboutMe />
+      }
+    </div>
   )
 }
 
