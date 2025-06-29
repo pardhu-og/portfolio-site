@@ -1,13 +1,14 @@
+//AboutMe.jsx
 import { FaLink } from "react-icons/fa";
 export default function AboutMe(){
 
     return (
-        <div className="min-h-screen max-w-screen bg-gradient-to-br from-purple-200 to-pink-200 p-1 text-justify
+        <div className="min-h-screen max-w-screen  p-1 text-justify
                         md:p-2 lg:p-3">
         <div className="flex flex-col gap-6 divide-y-2 divide-gray-500 m-1 p-1 text-lg
                         md:m-2 md:p-2 md:text-xl md:gap-8
                         lg:m-4 lg:p-4 lg:text-2xl lg:gap-10">
-            <h2 className="text-xl pb-2  font-bold 
+            <h2 className="text-xl pb-2  font-bold text-gray-700
                            md:text-2xl md:pb-4
                            lg:text-3xl lg:pb-6">About Me</h2>
             <section className="pb-2 flex flex-col gap-4 
