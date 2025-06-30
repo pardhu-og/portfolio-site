@@ -25,8 +25,10 @@ export default function Hero (){
             <div className="flex gap-4 justify-center mt-4 md:mt-6">
                 <Link to="/projects" className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700
                                                 md:px-6 md:py-4 md:text-lg lg:text-xl">View Projects</Link>
-                <a href="/resume.pdf" download className="bg-indigo-100 text-indigo-600 border border-indigo-600 px-4 py-2  rounded hover:bg-indigo-200
-                                                          md:px-6 md:py-4 md:text-lg lg:text-lg">Download Resume</a>
+                {/* <a href="/resume.pdf" download className="bg-indigo-100 text-indigo-600 border border-indigo-600 px-4 py-2  rounded hover:bg-indigo-200
+                                                          md:px-6 md:py-4 md:text-lg lg:text-lg">Download Resume </a> 
+                                                          
+                                                         Resume comming soon with more project experience added*/}
             </div>
         </div>
     );
