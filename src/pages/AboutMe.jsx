@@ -21,8 +21,13 @@ export default function AboutMe(){
                                 md:pb-3 md:gap-6
                                 lg:pb-6 lg:gap-8">
                 <p>Since then, I’ve gone all-in:</p>
-                <ul className="list-disc list-inside ">
-                    <li className="ml-4 md:ml-6 lg:ml-8">Built real projects like <a href="https://budget-buddy-three-tau.vercel.app/" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">Budget Buddy</a> — a personal finance tracker with clean UI and local storage.</li>
+                <ul className="list-disc ml-8 md:ml-12 ">
+                    <li className="ml-4 md:ml-6 lg:ml-8">Built real projects like: 
+                        <ol className=" list-inside">
+                            <li className="p-1 ml-2 md:ml-6 lg:ml-12"><a href="https://budget-buddy-three-tau.vercel.app/" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">Budget Buddy</a> — a personal finance tracker with clean UI and local storage.</li>
+                            <li className="p-1 ml-2 md:ml-6 lg:ml-12"><a href="https://chitram.vercel.app/" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">Chitram</a> — a Movie Galaxy where you can explore films, view trailers, bookmark favourites, and manage your watch history all in one place.</li>
+                        </ol>
+                    </li>
                     <li className="ml-4 md:ml-6 lg:ml-8">Mastered the fundamentals of HTML, CSS, JavaScript, React and Tailwind CSS.</li>
                     <li className="ml-4 md:ml-6 lg:ml-8">Documented my journey and learnings publicly through <a href="https://dialogue-with-machine-a-coders-journey.hashnode.dev/" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">blog articles</a> and <a href="https://github.com/pardhu-og" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">GitHub commits</a>.</li>
                     <li className="ml-4 md:ml-6 lg:ml-8">Focused deeply on polish, usability, and performance — the things that matter most in user-facing products.</li>
