@@ -1,9 +1,10 @@
 //AboutMe.jsx
 import { FaLink } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 export default function AboutMe(){
 
     return (
-        <div className="min-h-screen max-w-screen  p-1 text-justify
+        <div className="min-h-screen max-w-screen  p-1 mb-8 text-justify
                         md:p-2 lg:p-3">
         <div className="flex flex-col gap-6 divide-y-2 divide-gray-500 m-1 p-1 text-lg
                         md:m-2 md:p-2 md:text-xl md:gap-8
@@ -38,7 +39,11 @@ export default function AboutMe(){
             </section>
             <section className="flex flex-col gap-4 md:gap-6 lg:gap-8">
                 <p>Now, I’m looking to contribute to a product-focused team — preferably remote — where I can keep growing, contribute and do meaningful work.</p>
-                <p>Let’s connect if that’s what you’re building too. &nbsp; <FaLink className="inline w-4 h-4 mb-1 ml-1"/> <a href="https://www.linkedin.com/in/pardhasaradhi-alaparthi-203786371" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">LinkedIn</a></p>
+                <p>Let’s connect if that’s what you’re building too.
+                    <div className="m-1 lg:m-2"><MdEmail className="inline w-4 h-4 lg:w-6 lg:h-6 mb-1 ml-1"/>&nbsp; Email Me: <a href="mailto:alaparthipardhasaradhi@gmail.com"  className="text-blue-700 font-semibold underline">alaparthipardhasaradhi@gmail.com</a></div>
+                    <div className="m-1 lg:m-2"><FaLink className="inline w-4 h-4 lg:w-6 lg:h-6 mb-1 ml-1"/>&nbsp; Connect on <a href="https://www.linkedin.com/in/pardhasaradhi-alaparthi-203786371" target="_blank" rel="noreferrer noopener" className="text-blue-700 font-semibold underline">LinkedIn</a></div>
+                </p>
+                
             </section>
         </div>
         </div>
